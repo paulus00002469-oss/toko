@@ -4,4 +4,4 @@
  *  (Apps Script > Terapkan > Kelola deployment > salin "URL aplikasi web",
  *   yang berakhiran /exec).
  * ===================================================================== */
-window.TOKO_API_URL = 'TEMPEL_URL_WEB_APP_DI_SINI';
+window.TOKO_API_URL = 'https://script.google.com/macros/s/AKfycbwDRXZqu0bfSnvp5jbCujVFv-dP9KFfTBGDT3DsA1ZiPtntdutuiKiua2jEpd-HjH1W/exec';
