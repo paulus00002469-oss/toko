@@ -1,0 +1,25 @@
+{
+  "name": "Apotek JOJO SATU",
+  "short_name": "JOJO SATU",
+  "description": "Pesan obat, tebus resep, catatan kesehatan & poin member Apotek JOJO SATU — Sehat Bersama Sahabat JOJO.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#5a189a",
+  "lang": "id",
+  "categories": ["medical", "health", "shopping"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Tebus Resep", "url": "./?v=resep", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Pesanan Saya", "url": "./?v=orders", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Obat Rutin", "url": "./?v=rutin", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
